@@ -2,7 +2,7 @@
 import { useEffect, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "@/public/images/logo.png";
+import logo from "@/public/images/logo_en.svg";
 import thumb from "@/public/images/banner/banner-two-bg.png";
 import { subscribeUser } from "@/actions/subscribe-form";
 

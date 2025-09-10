@@ -75,7 +75,7 @@ const AboutTwoSection = () => {
 									<div className="content">
 										<h6 className="fw-6">AI Treasury System</h6>
 										<p className="text-sm mt-10">
-											Kukulkan's Eye of Wisdom provides 24/7 intelligent economic regulation
+											Kukulkan&apos;s Eye of Wisdom provides 24/7 intelligent economic regulation
 											with atomic hedging and smootherstep algorithms for ultimate stability.
 										</p>
 									</div>
