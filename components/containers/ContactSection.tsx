@@ -59,13 +59,13 @@ const ContactSection = () => {
 									<h6 className="fw-6 mb-5">Email Address</h6>
 									<div className="content-group">
 										<p>
-											<Link href="mailto:example@betwins.com">
-												Betwins@gmail.com
+											<Link href="mailto:example@Mythoria.com">
+												Mythoria@gmail.com
 											</Link>
 										</p>
 										<p className="mt-4">
-											<Link href="mailto:contact@betwins.com">
-												Betwinsdemo@gmail.com
+											<Link href="mailto:contact@Mythoria.com">
+												Mythoriademo@gmail.com
 											</Link>
 										</p>
 									</div>

@@ -37,7 +37,7 @@ const FooterTwo = ({
 							</div>
 							<div className="footer__widget-content mt-25">
 								<p>
-									Betwins is an innovative Online Crypto Gaming platform
+									Mythoria is an innovative Online Crypto Gaming platform
 									designed for players.
 								</p>
 							</div>
@@ -200,13 +200,13 @@ const FooterTwo = ({
 									</div>
 									<div className="content">
 										<p>
-											<Link href="mailto:example@betwins.com">
-												example@betwins.com
+											<Link href="mailto:example@Mythoria.com">
+												example@Mythoria.com
 											</Link>
 										</p>
 										<p className="mt-4">
-											<Link href="mailto:contact@betwins.com">
-												contact@betwins.com
+											<Link href="mailto:contact@Mythoria.com">
+												contact@Mythoria.com
 											</Link>
 										</p>
 									</div>
@@ -238,7 +238,7 @@ const FooterTwo = ({
 									<div className="footer__copyright-content">
 										<p className="text-center text-lg-start">
 											Copyright &copy; <span>{currentYear}</span>{" "}
-											<Link href="/">Betwins</Link>. All rights reserved.
+											<Link href="/">Mythoria</Link>. All rights reserved.
 										</p>
 									</div>
 								</div>

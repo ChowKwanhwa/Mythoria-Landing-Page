@@ -17,15 +17,15 @@ const BlogSection = () => {
 							data-aos-duration="600"
 						>
 							<span className="fw-6 secondary-text text-xl">
-								<strong>Latest,</strong> Lottery News
+								<strong>Latest,</strong> Mythoria Insights
 							</span>
 							<h2 className="title-animation fw-6 mt-25">
-								Innovative Ways to Play
+								GameFi Knowledge Hub
 							</h2>
 							<p className="mt-25">
-								Explore our blog for the latest in lottery insights, tips, and
-								success stories. Whether you&apos;re a seasoned player or just
-								starting out
+								Discover the latest insights on AI-powered GameFi, node governance, 
+								and strategic gameplay. Master Mythoria&apos;s ecosystem with expert 
+								guides and ecosystem updates
 							</p>
 						</div>
 					</div>
@@ -55,14 +55,6 @@ const BlogSection = () => {
 											</h6>
 										</div>
 										<div className="content__cta mt-30">
-											<Link
-												href={blog.href}
-												aria-label="view comments"
-												title="view comments"
-											>
-												<i className="ti ti-message-2"></i> {blog.comments}{" "}
-												Comments
-											</Link>
 											<span></span>
 											<Link
 												href={blog.href}
@@ -88,12 +80,14 @@ const BlogSection = () => {
 							data-aos-duration="600"
 						>
 							<Link
-								href="blog-grid"
-								aria-label="Play Lottery"
-								title="Play Lottery"
+								href="https://mythoria-2.gitbook.io/mythoria-docs"
+								aria-label="View All Articles"
+								title="View All Articles"
 								className="btn--secondary"
+								target="_blank"
+								rel="noopener noreferrer"
 							>
-								View All <i className="ti ti-arrow-narrow-right"></i>
+								View All Articles <i className="ti ti-arrow-narrow-right"></i>
 							</Link>
 						</div>
 					</div>

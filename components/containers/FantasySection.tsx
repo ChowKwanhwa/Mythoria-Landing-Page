@@ -57,11 +57,13 @@ const FantasySection = () => {
 									Dive into our in-house games, live casino and slots
 								</p>
 								<Link
-									href="game-details"
-									aria-label="play now"
-									title="play now"
+									href="https://mythoria-2.gitbook.io/mythoria-docs/readme/02_core_gameplay_mechanics"
+									aria-label="learn more"
+									title="learn more"
+									target="_blank"
+									rel="noopener noreferrer"
 								>
-									Play Now <i className="ti ti-arrow-narrow-right"></i>
+									Learn More <i className="ti ti-arrow-narrow-right"></i>
 								</Link>
 							</div>
 							<div className="thumb">
@@ -80,11 +82,13 @@ const FantasySection = () => {
 									Dive into our in-house games, live casino and slots
 								</p>
 								<Link
-									href="game-details"
-									aria-label="play now"
-									title="play now"
+									href="https://mythoria-2.gitbook.io/mythoria-docs"
+									aria-label="learn more"
+									title="learn more"
+									target="_blank"
+									rel="noopener noreferrer"
 								>
-									Play Now <i className="ti ti-arrow-narrow-right"></i>
+									Learn More <i className="ti ti-arrow-narrow-right"></i>
 								</Link>
 							</div>
 							<div className="thumb">
@@ -106,15 +110,35 @@ const FantasySection = () => {
 								</h5>
 							</div>
 							<div className="content mt-40">
-								<p className="mb-15">
-									FUSD stablecoin and MYR game token working in perfect harmony
-								</p>
+								<div className="dual-token-info mb-20">
+									<div className="token-details mb-15">
+										<div className="fusd-info mb-10">
+											<h6 className="text-white mb-5">FUSD Stablecoin</h6>
+											<p className="small-text mb-5">• Total Supply: 200M FUSD</p>
+											<p className="small-text mb-5">• 1:1 USDT Peg via AI Treasury</p>
+											<p className="small-text">• Entry token for all PVP challenges</p>
+										</div>
+										<div className="myr-info">
+											<h6 className="text-white mb-5">MYR Game Token</h6>
+											<p className="small-text mb-5">• Total Supply: 2T MYR</p>
+											<p className="small-text mb-5">• Deflationary with daily burns</p>
+											<p className="small-text">• Node rewards & PVP dividends</p>
+										</div>
+									</div>
+									<div className="swap-mechanism mb-15">
+										<h6 className="text-white mb-5">Dual Swap Pools</h6>
+										<p className="small-text mb-5">• Swap1: FUSD/USDT (40M/2M USDT)</p>
+										<p className="small-text">• Swap2: FUSD/MYR (40M/2T MYR)</p>
+									</div>
+								</div>
 								<Link
-									href="game-details"
-									aria-label="play now"
-									title="play now"
+									href="https://mythoria-2.gitbook.io/mythoria-docs"
+									aria-label="learn more"
+									title="learn more"
+									target="_blank"
+									rel="noopener noreferrer"
 								>
-									Play Now <i className="ti ti-arrow-narrow-right"></i>
+									Learn More <i className="ti ti-arrow-narrow-right"></i>
 								</Link>
 							</div>
 							<div className="thumb">
@@ -140,11 +164,13 @@ const FantasySection = () => {
 									Dive into our in-house games, live casino and slots
 								</p>
 								<Link
-									href="game-details"
-									aria-label="play now"
-									title="play now"
+									href="https://mythoria-2.gitbook.io/mythoria-docs/readme/04_pvp_battle_and_distribution_mechanisms"
+									aria-label="learn more"
+									title="learn more"
+									target="_blank"
+									rel="noopener noreferrer"
 								>
-									Play Now <i className="ti ti-arrow-narrow-right"></i>
+									Learn More <i className="ti ti-arrow-narrow-right"></i>
 								</Link>
 							</div>
 							<div className="thumb">
@@ -163,11 +189,13 @@ const FantasySection = () => {
 									10-star community growth system with up to 50% PVP rewards
 								</p>
 								<Link
-									href="game-details"
-									aria-label="play now"
-									title="play now"
+									href="https://mythoria-2.gitbook.io/mythoria-docs/readme/04_pvp_battle_and_distribution_mechanisms"
+									aria-label="learn more"
+									title="learn more"
+									target="_blank"
+									rel="noopener noreferrer"
 								>
-									Play Now <i className="ti ti-arrow-narrow-right"></i>
+									Learn More <i className="ti ti-arrow-narrow-right"></i>
 								</Link>
 							</div>
 							<div className="thumb">
@@ -181,10 +209,12 @@ const FantasySection = () => {
 					<div className="col-12">
 						<div className="mt-40 text-center">
 							<Link
-								href="games"
-								aria-label="explore categories"
-								title="explore categories"
+								href="https://mythoria-2.gitbook.io/mythoria-docs"
+								aria-label="explore ecosystem"
+								title="explore ecosystem"
 								className="btn--secondary"
+								target="_blank"
+								rel="noopener noreferrer"
 							>
 								Explore Ecosystem <i className="ti ti-arrow-narrow-right"></i>
 							</Link>

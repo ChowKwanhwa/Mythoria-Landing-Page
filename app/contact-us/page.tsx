@@ -10,21 +10,21 @@ const ClientWrapper = dynamic(
 );
 
 export const generateMetadata = async (): Promise<Metadata> => ({
-	title: "Contact Us | Betwins - Online Crypto Gaming",
+	title: "Contact Us | Mythoria - Online Crypto Gaming",
 	description:
-		"Welcome to Betwins - the ultimate crypto gaming & lottery experience.",
-	keywords: ["crypto gaming", "lottery", "betwins", "casino", "blockchain"],
+		"Welcome to Mythoria - the ultimate crypto gaming & lottery experience.",
+	keywords: ["crypto gaming", "lottery", "Mythoria", "casino", "blockchain"],
 	openGraph: {
-		title: "Betwins - Crypto Gaming & Lottery",
+		title: "Mythoria - Crypto Gaming & Lottery",
 		description: "Experience seamless blockchain - based gaming and lotteries.",
-		url: "https://betwins.netlify.app/",
-		siteName: "Betwins",
+		url: "https://Mythoria.netlify.app/",
+		siteName: "Mythoria",
 		images: [
 			{
 				url: "/images/og-image.png",
 				width: 1200,
 				height: 630,
-				alt: "Betwins Crypto Gaming",
+				alt: "Mythoria Crypto Gaming",
 			},
 		],
 		type: "website",

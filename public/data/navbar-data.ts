@@ -2,111 +2,38 @@ const NavbarData = [
   {
     title: "Home",
     path: "/",
-    submenu: [
-      {
-        title: "Home",
-        path: "/",
-      },
-      {
-        title: "Home Two",
-        path: "index-two",
-      },
-      {
-        title: "Home Three",
-        path: "index-three",
-      },
-      {
-        title: "Home Four",
-        path: "index-four",
-      },
-    ],
   },
   {
     title: "About Us",
     path: "about-us",
   },
   {
-    title: "Games",
+    title: "Ten-Chamber Challenge",
     path: "games",
-    submenu: [
-      {
-        title: "Games",
-        path: "games",
-      },
-      {
-        title: "Games Two",
-        path: "games-two",
-      },
-      {
-        title: "Game Details",
-        path: "game-details",
-      },
-    ],
   },
   {
-    title: "Lottery",
+    title: "Node System",
     path: "lottery",
-    submenu: [
-      {
-        title: "Lottery",
-        path: "lottery",
-      },
-      {
-        title: "Lottery Contest",
-        path: "lottery-contest",
-      },
-      {
-        title: "Lottery Results",
-        path: "lottery-result",
-      },
-      {
-        title: "Lottery Details",
-        path: "lottery-details",
-      },
-    ],
   },
   {
-    title: "Pages",
-    path: "/about",
+    title: "Resources",
+    path: "/resources",
     submenu: [
       {
-        title: "FAQ",
-        path: "faq",
+        title: "One Pager",
+        path: "https://mythoria-2.gitbook.io/mythoria-docs/yu-que/mythoriayuque-fan-ti-wen-dang",
       },
       {
-        title: "Sign In",
-        path: "sign-in",
+        title: "Whitepaper",
+        path: "https://mythoria-2.gitbook.io/mythoria-docs",
       },
       {
-        title: "Create Account",
-        path: "sign-up",
-      },
-      {
-        title: "Coming Soon",
-        path: "coming-soon",
-      },
-      {
-        title: "Error",
-        path: "error",
-      },
-    ],
-  },
-
-  {
-    title: "Blog",
-    path: "blog",
-    submenu: [
-      {
-        title: "Blog List View",
+        title: "Blog",
         path: "blog",
       },
       {
-        title: "Blog Grid View",
-        path: "blog-grid",
-      },
-      {
-        title: "Blog Details",
-        path: "blog-details",
+        title: "FAQ",
+        path: "faq",
       },
     ],
   },

@@ -29,7 +29,7 @@ const HeroSectionTwo = () => {
 								The Power of Crypto <span className="primary-text">Gaming</span>
 							</h1>
 							<p className="text-xl mt-30">
-								Welcome to Betwins, the ultimate online gaming platform where
+								Welcome to Mythoria, the ultimate online gaming platform where
 								every bet you place brings you closer to winning real
 								cryptocurrency!
 							</p>

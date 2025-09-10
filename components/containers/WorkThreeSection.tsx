@@ -16,13 +16,13 @@ const WorkThreeSection = () => {
 							data-aos-duration="600"
 						>
 							<span className="fw-6 secondary-text text-xl">
-								<strong>Step,</strong> by Step Process
+								<strong>Node,</strong> Governance System
 							</span>
-							<h2 className="title-animation fw-6 mt-25">How It`s Works</h2>
+							<h2 className="title-animation fw-6 mt-25">How Nodes Generate Profit</h2>
 							<p className="mt-16">
-								We&apos;ve made it easier than ever to dive into the world of
-								crypto gaming. With just a few clicks, you can deposit your
-								favorite cryptocurrency
+								Join Mythoria&apos;s decentralized governance network with 1,700 total nodes across 
+								V1-V7 tiers. Earn passive income through our innovative node system with guaranteed 
+								41-85 day ROI and 10% Swap2 trading fee distribution
 							</p>
 						</div>
 					</div>
@@ -41,10 +41,10 @@ const WorkThreeSection = () => {
 								<p className="text-lg fw-5">
 									Step_<span className="secondary-text">01</span>
 								</p>
-								<h6 className="fw-6 mt-16">Sign Up Instantly</h6>
+								<h6 className="fw-6 mt-16">Purchase Node Rights</h6>
 								<p className="text-sm mt-16">
-									Create your Betwins account in just a few minutes. Simply
-									register
+									Choose from V1-V7 node tiers (1,700 total available) to gain 
+									governance rights and exclusive revenue sharing in Mythoria ecosystem
 								</p>
 							</div>
 							<Image
@@ -68,10 +68,10 @@ const WorkThreeSection = () => {
 								<p className="text-lg fw-5">
 									Step_<span className="secondary-text">02</span>
 								</p>
-								<h6 className="fw-6 mt-16">Deposit Securely</h6>
+								<h6 className="fw-6 mt-16">Earn Trading Fees</h6>
 								<p className="text-sm mt-16">
-									Add funds to your account using popular cryptocurrencies like
-									Bitcoin.
+									Automatically receive 10% of all Swap2 trading fees distributed 
+									among node holders with guaranteed 41-85 day ROI period
 								</p>
 							</div>
 							<Image
@@ -95,10 +95,10 @@ const WorkThreeSection = () => {
 								<p className="text-lg fw-5">
 									Step_<span className="secondary-text">03</span>
 								</p>
-								<h6 className="fw-6 mt-16">Win Real Crypto</h6>
+								<h6 className="fw-6 mt-16">Passive Income Stream</h6>
 								<p className="text-sm mt-16">
-									Browse hundreds of exciting games, from casino classics to
-									live betting.
+									Receive continuous MYR token dividends, participate in ecosystem 
+									governance, and benefit from deflationary tokenomics driving long-term value
 								</p>
 							</div>
 						</div>
@@ -109,18 +109,18 @@ const WorkThreeSection = () => {
 						<div className="work-two__cta mt-60">
 							<div className="work-two__cta-left">
 								<p className="text-xl fw-5 secondary-text">
-									<i className="ti ti-user"></i> Ready to play? Create your
-									account now.
+									<i className="ti ti-trophy"></i> Ready to become a node guardian? 
+									Join the governance network.
 								</p>
 							</div>
 							<div className="work-two__cta-right">
 								<Link
 									href="sign-up"
-									aria-label="Register Here"
-									title="Register Here"
+									aria-label="Become Node Guardian"
+									title="Become Node Guardian"
 									className="btn--primary"
 								>
-									Register Here
+									Become Node Guardian
 								</Link>
 							</div>
 						</div>

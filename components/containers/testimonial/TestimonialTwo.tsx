@@ -20,10 +20,10 @@ const TestimonialTwo = () => {
 						<div className="testimonial__content">
 							<div className="section__content text-start mb-40">
 								<span className="fw-6 secondary-text text-xl">
-									<strong>What,</strong> Our Players Say
+									<strong>Why,</strong> Choose Mythoria
 								</span>
 								<h2 className="title-animation fw-6 mt-25">
-									Success Stories from Our <span>Winning</span> Players
+									Revolutionary <span>GameFi</span> Advantages
 								</h2>
 							</div>
 							<TestimonialSlider />

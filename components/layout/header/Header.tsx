@@ -25,9 +25,17 @@ const Header = ({ showTopGames = true }: HeaderProps) => {
 							<div className="main-header__menu-box">
 								<nav className="navbar p-0">
 									<div className="navbar__intro">
-										<div className="navbar-logo">
+										<div className="navbar-logo" style={{ marginLeft: '40px' }}>
 											<Link href="/">
-												<Image src={logo} alt="Image" />
+												<Image 
+													src={logo} 
+													alt="Image" 
+													style={{ 
+														maxWidth: '200px', 
+														transform: 'scale(1.4)',
+														transformOrigin: 'left center'
+													}} 
+												/>
 											</Link>
 										</div>
 										{showTopGames && <TopGames />}

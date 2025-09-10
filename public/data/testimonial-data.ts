@@ -6,26 +6,26 @@ const TestimonialData = [
   {
     id: 0,
     image: one,
-    name: "Kiss Laura",
-    role: "Product Designer",
+    name: "AI Treasury System",
+    role: "Economic Stability",
     content:
-      "Betwins is hands down the best crypto gaming platform I've used! I'&apos;'ve won big on several games, and the payouts were instant. Can't recommend it enough!",
+      "First-ever GameFi platform with intelligent economic regulation. Our AI Treasury provides 24/7 price stability and automatic risk management, ensuring sustainable ecosystem growth.",
   },
   {
     id: 1,
     image: two,
-    name: "STEVEN FRANZEN",
-    role: "Product Designer",
+    name: "Dual-Token Innovation",
+    role: "FUSD + MYR Synergy",
     content:
-      "Betwins is hands down the best crypto gaming platform I've used! I'&apos;'ve won big on several games, and the payouts were instant. Can't recommend it enough!",
+      "Revolutionary dual-token model: FUSD provides stable entry with USDT peg, while MYR offers deflationary growth. Experience the perfect balance of security and profitability.",
   },
   {
     id: 2,
     image: three,
-    name: "FRAZAN WILLIAMSON",
-    role: "Product Designer",
+    name: "Guaranteed Returns",
+    role: "Node Governance",
     content:
-      "Betwins is hands down the best crypto gaming platform I've used! I'&apos;'ve won big on several games, and the payouts were instant. Can't recommend it enough!",
+      "1,700 limited nodes across V1-V7 tiers with guaranteed 41-85 day ROI. Earn 10% of all Swap2 trading fees while participating in decentralized governance decisions.",
   },
 ];
 

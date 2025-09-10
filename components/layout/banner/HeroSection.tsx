@@ -35,18 +35,22 @@ const HeroSection = () => {
 							</p>
 							<div className="banner-action mt-40">
 								<Link
-									href="games"
+									href="https://t.me/MythoriaMYR"
 									aria-label="enter mythoria"
 									title="enter mythoria"
 									className="btn--primary"
+									target="_blank"
+									rel="noopener noreferrer"
 								>
 									Enter Mythoria <i className="ti ti-arrow-narrow-right"></i>
 								</Link>
 								<Link
-									href="whitepaper"
+									href="https://mythoria-2.gitbook.io/mythoria-docs"
 									aria-label="read whitepaper"
 									title="read whitepaper"
 									className="btn--secondary"
+									target="_blank"
+									rel="noopener noreferrer"
 								>
 									Read Whitepaper <i className="ti ti-arrow-narrow-right"></i>
 								</Link>

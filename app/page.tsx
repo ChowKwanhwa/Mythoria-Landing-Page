@@ -3,9 +3,7 @@ import type { Metadata } from "next";
 import Header from "@/components/layout/header/Header";
 import HeroSection from "@/components/layout/banner/HeroSection";
 import FantasySection from "@/components/containers/FantasySection";
-import SelectLottery from "@/components/containers/lottery/SelectLottery";
 import AboutTwoSection from "@/components/containers/about/AboutTwoSection";
-import LotteryItems from "@/components/containers/lottery/LotteryItems";
 import WorkThreeSection from "@/components/containers/WorkThreeSection";
 import TestimonialTwo from "@/components/containers/testimonial/TestimonialTwo";
 import BlogSection from "@/components/containers/blog/BlogSection";
@@ -18,7 +16,7 @@ const ClientWrapper = dynamic(
 export const generateMetadata = async (): Promise<Metadata> => ({
 	title: "Home | Mythoria - Redefining the GameFi Economic Paradigm",
 	description:
-		"Experience the mystical Land of Myths where ancient Mayan wisdom meets cutting-edge blockchain technology. Join the Ten-Chamber Challenge and discover a revolutionary GameFi ecosystem with AI-powered economic regulation.",
+		"Experience the mystical Land of Myths where ancient Mayan wisdom meets cutting-edge blockchain technology. Join the and discover a revolutionary GameFi ecosystem with AI-powered economic regulation.",
 	keywords: ["GameFi", "Web3", "blockchain", "gaming", "cryptocurrency", "AI regulation", "Mayan", "Mythoria", "FUSD", "MYR", "PVP", "DeFi"],
 	openGraph: {
 		title: "Mythoria - Redefining the GameFi Economic Paradigm",
@@ -44,9 +42,7 @@ const page = () => {
 			<Header />
 			<HeroSection />
 			<FantasySection />
-			<SelectLottery />
 			<AboutTwoSection />
-			<LotteryItems layout="two" showLotteryItems={false} />
 			<WorkThreeSection />
 			<TestimonialTwo />
 			<BlogSection />

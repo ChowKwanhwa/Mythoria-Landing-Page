@@ -25,59 +25,58 @@ const Footer = () => {
 						>
 							<div className="footer__widget-intro">
 								<Link href="/" className="logo">
-									<Image src={logo} alt="Image" />
+									<Image 
+										src={logo} 
+										alt="Image" 
+										style={{ 
+											transform: 'scale(0.8)',
+											transformOrigin: 'left center'
+										}} 
+									/>
 								</Link>
 							</div>
 							<div className="footer__widget-content mt-25">
 								<p>
-									Betwins is an innovative Online Crypto Gaming platform
+									Mythoria is an innovative Online Crypto Gaming platform
 									designed for players.
 								</p>
 							</div>
 							<div className="social mt-35">
 								<Link
-									href="https://www.facebook.com/"
+									href="https://x.com/MythoriaMYR"
 									target="_blank"
-									aria-label="share us on facebook"
-									title="facebook"
-								>
-									<i className="fa-brands fa-facebook-f"></i>
-								</Link>
-								<Link
-									href="https://instagram.com/"
-									target="_blank"
-									aria-label="share us on instagram"
-									title="instagram"
-								>
-									<i className="fa-brands fa-instagram"></i>
-								</Link>
-								<Link
-									href="https://x.com/"
-									target="_blank"
-									aria-label="share us on twitter"
+									aria-label="follow us on twitter"
 									title="twitter"
 								>
 									<i className="fa-brands fa-twitter"></i>
 								</Link>
 								<Link
-									href="https://www.linkedin.com/"
+									href="https://t.me/MythoriaMYR"
 									target="_blank"
-									aria-label="share us on linkedin"
-									title="linkedin"
+									aria-label="join our telegram"
+									title="telegram"
 								>
-									<i className="fa-brands fa-linkedin-in"></i>
+									<i className="fa-brands fa-telegram"></i>
+								</Link>
+								<Link
+									href="https://mythoria.xyz"
+									target="_blank"
+									aria-label="visit our website"
+									title="website"
+								>
+									<i className="fa-solid fa-globe"></i>
 								</Link>
 							</div>
 						</div>
 					</div>
-					<div className="col-12 col-lg-3 col-xl-2">
+					<div className="col-12 col-lg-3 col-xl-2" style={{ marginLeft: '60px' }}>
 						<div
 							className="footer__widget"
 							data-aos="fade-up"
 							data-aos-duration="600"
 							data-aos-delay="200"
 						>
-							<div className="footer__widget-intro">
+							<div className="footer__widget-intro" style={{ marginTop: '80px' }}>
 								<h6 className="fw-6 neutral-top">Quick Links</h6>
 							</div>
 							<div className="footer__widget-content mt-25">
@@ -108,25 +107,25 @@ const Footer = () => {
 							data-aos-duration="600"
 							data-aos-delay="400"
 						>
-							<div className="footer__widget-intro">
+							<div className="footer__widget-intro" style={{ marginTop: '80px' }}>
 								<h6 className="fw-6 neutral-top">Categories</h6>
 							</div>
 							<div className="footer__widget-content mt-25">
 								<ul>
 									<li>
-										<Link href="lottery-contest">Jackpot</Link>
+										<Link href="https://mythoria-2.gitbook.io/mythoria-docs/yu-que/mythoriayuque-fan-ti-wen-dang" target="_blank">One Pager</Link>
 									</li>
 									<li>
-										<Link href="lottery-contest">Slots</Link>
+										<Link href="https://mythoria-2.gitbook.io/mythoria-docs" target="_blank">Whitepaper</Link>
 									</li>
 									<li>
-										<Link href="lottery-contest">Casino</Link>
+										<Link href="contact-us">Contact Us</Link>
 									</li>
 									<li>
-										<Link href="lottery-contest">Gambling</Link>
+										<Link href="sign-up">Create Account</Link>
 									</li>
 									<li>
-										<Link href="lottery">Lottery</Link>
+										<Link href="sign-in">Sign In</Link>
 									</li>
 								</ul>
 							</div>
@@ -139,38 +138,7 @@ const Footer = () => {
 							data-aos-duration="600"
 							data-aos-delay="600"
 						>
-							<div className="footer__widget-intro">
-								<h6 className="fw-6 neutral-top">Quick Links</h6>
-							</div>
-							<div className="footer__widget-content mt-25">
-								<ul>
-									<li>
-										<Link href="faq">FAQ&apos;s</Link>
-									</li>
-									<li>
-										<Link href="contact-us">Contact Us</Link>
-									</li>
-									<li>
-										<Link href="sign-up">Create Account</Link>
-									</li>
-									<li>
-										<Link href="sign-in">Sign In</Link>
-									</li>
-									<li>
-										<Link href="error">Error</Link>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div className="col-12 col-lg-6 col-xl-3">
-						<div
-							className="footer__widget"
-							data-aos="fade-up"
-							data-aos-duration="600"
-							data-aos-delay="800"
-						>
-							<div className="footer__widget-intro">
+							<div className="footer__widget-intro" style={{ marginTop: '80px' }}>
 								<h6 className="fw-6 neutral-top">Get In Touch</h6>
 							</div>
 							<div className="footer__widget-content mt-25">
@@ -180,10 +148,7 @@ const Footer = () => {
 									</div>
 									<div className="content">
 										<p>
-											<Link href="tel:505-555-0125">(505) 555-0125</Link>
-										</p>
-										<p className="mt-4">
-											<Link href="tel:225-555-0118">(225) 555-0118</Link>
+											<Link href="https://mythoria.xyz" target="_blank">mythoria.xyz</Link>
 										</p>
 									</div>
 								</div>
@@ -193,13 +158,8 @@ const Footer = () => {
 									</div>
 									<div className="content">
 										<p>
-											<Link href="mailto:example@betwins.com">
-												example@betwins.com
-											</Link>
-										</p>
-										<p className="mt-4">
-											<Link href="mailto:contact@betwins.com">
-												contact@betwins.com
+											<Link href="mailto:contact@mythoria.xyz">
+												contact@mythoria.xyz
 											</Link>
 										</p>
 									</div>
@@ -210,12 +170,9 @@ const Footer = () => {
 									</div>
 									<div className="content">
 										<p>
-											<a
-												href="https://www.google.com/maps/place/Kentucky,+USA/@37.8172108,-87.087054,8z/data=!3m1!4b1!4m6!3m5!1s0x8842734c8b1953c9:0x771f6f4ec5ccdffc!8m2!3d37.8393332!4d-84.2700179!16zL20vMDQ5OHk?entry=ttu"
-												target="_blank"
-											>
-												1901 Thornridge Cir. Shiloh, Hawaii 81063
-											</a>
+											<Link href="https://t.me/MythoriaMYR" target="_blank">
+												Join our Telegram Community
+											</Link>
 										</p>
 									</div>
 								</div>
@@ -231,7 +188,7 @@ const Footer = () => {
 									<div className="footer__copyright-content">
 										<p className="text-center text-lg-start">
 											Copyright &copy; <span>{currentYear}</span>{" "}
-											<Link href="/">Betwins</Link>. All rights reserved.
+											<Link href="/">Mythoria</Link>. All rights reserved.
 										</p>
 									</div>
 								</div>
