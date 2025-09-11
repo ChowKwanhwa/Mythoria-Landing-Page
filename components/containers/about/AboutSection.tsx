@@ -19,15 +19,13 @@ const AboutSection = () => {
 						>
 							<div className="section__content text-start">
 								<span className="fw-6 secondary-text text-xl">
-									<strong>Trusted,</strong> by Thousands of Winners
+									<strong>Mythoria,</strong> Next-Generation GameFi Platform
 								</span>
 								<h2 className="title-animation fw-6 mt-25">
-									Join the Top-Rated Lottery, <span>Play Here</span>
+									Experience the Future of <span>Crypto Gaming</span>
 								</h2>
 								<p className="mt-25">
-									We go beyond simply offering lottery games; we provide a
-									trusted, secure environment where millions of players come to
-									enjoy.
+									Mythoria is an innovative online crypto gaming platform that combines PoS staking with AI-driven regulation, creating a sustainable Web3 gaming ecosystem powered by dual-token economics.
 								</p>
 							</div>
 							<hr className="divider mt-35 mb-40" />
@@ -37,10 +35,9 @@ const AboutSection = () => {
 										<i className="ti ti-device-gamepad-2"></i>
 									</div>
 									<div className="content">
-										<h6 className="fw-6">Guaranteed Fair Play</h6>
+										<h6 className="fw-6">AI Treasury System</h6>
 										<p className="text-sm mt-8">
-											We prioritize fair gameplay with verified lottery draws
-											processes
+											Kukulkan&apos;s Eye of Wisdom provides 24/7 intelligent economic regulation with atomic hedging algorithms
 										</p>
 									</div>
 								</div>
@@ -50,35 +47,35 @@ const AboutSection = () => {
 										<i className="ti ti-wallet"></i>
 									</div>
 									<div className="content">
-										<h6 className="fw-6">Instant Secure Payouts</h6>
+										<h6 className="fw-6">Dual-Token Economics</h6>
 										<p className="text-sm mt-8">
-											Enjoy seamless and quick payouts with the highest place.
+											FUSD stablecoin and MYR game token create a balanced economic ecosystem
 										</p>
 									</div>
 								</div>
 							</div>
 							<ul className="list-group-row mt-40">
 								<li>
-									<i className="ti ti-check"></i>Risk Management Consulting
+									<i className="ti ti-check"></i>PoS Staking Mechanism
 								</li>
 								<li>
-									<i className="ti ti-check"></i>Customer Relationship
+									<i className="ti ti-check"></i>AI-Driven Economic Regulation
 								</li>
 								<li>
-									<i className="ti ti-check"></i>Leadership Development
+									<i className="ti ti-check"></i>Node Governance System
 								</li>
 								<li>
-									<i className="ti ti-check"></i>Supply Chain Optimization
+									<i className="ti ti-check"></i>Sustainable GameFi Ecosystem
 								</li>
 							</ul>
 							<div className="mt-40">
 								<Link
-									href="lottery"
-									aria-label="Play Lottery"
-									title="Play Lottery"
+									href="games"
+									aria-label="Play Games"
+									title="Play Games"
 									className="btn--primary"
 								>
-									Play Lottery <i className="ti ti-arrow-narrow-right"></i>
+									Play Games <i className="ti ti-arrow-narrow-right"></i>
 								</Link>
 							</div>
 						</div>

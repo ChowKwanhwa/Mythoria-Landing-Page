@@ -65,7 +65,7 @@ export default function RootLayout({
 }) {
 	return (
 		<html lang="en">
-			<body className={`${chakraPetch.variable}`}>{children}</body>
+			<body className={`${chakraPetch.variable}`} suppressHydrationWarning={true}>{children}</body>
 		</html>
 	);
 }

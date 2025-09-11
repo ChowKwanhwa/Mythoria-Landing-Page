@@ -4,12 +4,9 @@ import Header from "@/components/layout/header/Header";
 import Breadcrumb from "@/components/layout/banner/Breadcrumb";
 import AboutSection from "@/components/containers/about/AboutSection";
 import ChooseSection from "@/components/containers/ChooseSection";
-import CounterSection from "@/components/containers/CounterSection";
-import Testimonial from "@/components/containers/testimonial/Testimonial";
 import ReferTwoSection from "@/components/containers/ReferTwoSection";
 import FooterTwo from "@/components/layout/footer/FooterTwo";
 
-const Sponsors = dynamic(() => import("@/components/containers/Sponsors"));
 
 const ClientWrapper = dynamic(
 	() => import("@/components/widgets/ClientWrapper")
@@ -45,9 +42,6 @@ const page = () => {
 			<Breadcrumb title="About Us" />
 			<AboutSection />
 			<ChooseSection />
-			<CounterSection />
-			<Testimonial />
-			<Sponsors />
 			<ReferTwoSection />
 			<FooterTwo />
 			<ClientWrapper />

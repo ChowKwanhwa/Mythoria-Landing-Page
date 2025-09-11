@@ -42,16 +42,13 @@ const ChooseSection = ({ layout = "one" }: ChooseProps) => {
 						>
 							<div className="section__content text-start">
 								<span className="fw-6 secondary-text text-xl">
-									<strong>Trusted,</strong> by Thousands of Winners
+									<strong>Mythoria,</strong> Next-Generation GameFi Platform
 								</span>
 								<h2 className="title-animation fw-6 mt-25">
-									Trusted Platform for Secure <span>Crypto</span>
-									Bets
+									Revolutionary <span>Web3</span> Gaming Ecosystem
 								</h2>
 								<p className="mt-25">
-									We stand out from the rest. Our platform is designed with you
-									in mind providing a secure, fair, thrilling, and user-friendly
-									experience.
+									Mythoria combines PoS staking with AI-driven economic regulation, creating a sustainable gaming ecosystem where players can earn through strategic gameplay and token economics.
 								</p>
 							</div>
 							<div className="rating__group mt-40">
@@ -74,16 +71,16 @@ const ChooseSection = ({ layout = "one" }: ChooseProps) => {
 							</div>
 							<ul className="list-group-row mt-40">
 								<li>
-									<i className="ti ti-check"></i>Risk Management Consulting
+									<i className="ti ti-check"></i>PoS Staking Mechanism
 								</li>
 								<li>
-									<i className="ti ti-check"></i>Customer Relationship
+									<i className="ti ti-check"></i>AI Treasury System
 								</li>
 								<li>
-									<i className="ti ti-check"></i>Leadership Development
+									<i className="ti ti-check"></i>Dual-Token Economics
 								</li>
 								<li>
-									<i className="ti ti-check"></i>Supply Chain Optimization
+									<i className="ti ti-check"></i>Node Governance System
 								</li>
 							</ul>
 							<div className="mt-40">

@@ -9,11 +9,11 @@ const NavbarData = [
   },
   {
     title: "Ten-Chamber Challenge",
-    path: "games",
+    path: "https://mythoria-2.gitbook.io/mythoria-docs/readme/02_core_gameplay_mechanics",
   },
   {
     title: "Node System",
-    path: "lottery",
+    path: "https://mythoria-2.gitbook.io/mythoria-docs/readme/04_pvp_battle_and_distribution_mechanisms",
   },
   {
     title: "Resources",
