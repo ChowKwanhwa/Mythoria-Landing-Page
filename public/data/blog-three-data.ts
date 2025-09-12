@@ -1,6 +1,6 @@
 import one from "@/public/images/blog/one.png";
 import two from "@/public/images/blog/two.png";
-import three from "@/public/images/blog/three.png";
+import three from "@/public/images/blog/four.png";
 
 const BlogThreeData = [
   {

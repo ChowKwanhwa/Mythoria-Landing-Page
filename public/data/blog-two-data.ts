@@ -1,6 +1,6 @@
 import one from "@/public/images/blog/one.png";
 import two from "@/public/images/blog/two.png";
-import three from "@/public/images/blog/three.png";
+import three from "@/public/images/blog/four.png";
 import avatarFive from "@/public/images/avatar/five.png";
 import avatarSix from "@/public/images/avatar/six.png";
 import avatarSeven from "@/public/images/avatar/seven.png";
