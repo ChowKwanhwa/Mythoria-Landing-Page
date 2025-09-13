@@ -19,15 +19,72 @@
   }
 }
 
+// Mobile responsive styles for logo and navigation
+@media only screen and (max-width: 767px) {
+  .header {
+    .navbar {
+      flex-wrap: nowrap;
+      gap: 10px;
+    }
+
+    .navbar__intro {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .navbar-logo {
+      margin-left: 5px;
+      flex-shrink: 0;
+      
+      .navbar-logo-img {
+        max-width: 80px !important;
+        height: auto !important;
+        transform: scale(0.6) !important;
+        transform-origin: left center;
+      }
+    }
+
+    .navbar__options {
+      flex-shrink: 0;
+      gap: 5px;
+    }
+
+    .navbar__mobile-options {
+      gap: 5px;
+    }
+
+    .navbar__mobile-icons {
+      display: none !important;
+    }
+
+    .navbar__cta {
+      display: none !important;
+    }
+
+    .open-offcanvas-nav {
+      .top-bar, .middle-bar, .bottom-bar {
+        width: 25px;
+      }
+      .middle-bar {
+        width: 28px;
+      }
+      .bottom-bar {
+        width: 14px;
+      }
+    }
+  }
+}
+
 @media only screen and (min-width: 576px) {
   .header {
     padding-block: 18px 17px;
 
     .navbar-logo {
-      img {
+      .navbar-logo-img {
         max-width: 143px;
         height: 47px;
         object-fit: contain;
+        transform: scale(1.0);
       }
     }
   }
